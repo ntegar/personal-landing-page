@@ -7,8 +7,8 @@ export default class Example extends React.Component {
   render() {
     return (
       <div className="footer">
-        <Container align-center>
-            <span>Nabil Tegar</span>
+        <Container>
+            <span>Made with 💕 by <a href="https://github.com/ntegar/personal-landing-page">Nabil Tegar</a></span>
         </Container>
       </div>
     );
