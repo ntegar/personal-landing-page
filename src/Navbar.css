@@ -1,0 +1,28 @@
+svg {
+    height: 50px;
+    width: 50px;
+    fill: #343a40;
+}
+
+svg circle {
+    transition: fill-opacity 0.2s;
+    animation-name: zoominoutsinglefeatured; 
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+svg circle:hover {
+    fill-opacity: 0;
+}
+
+@keyframes zoominoutsinglefeatured {
+    0% {
+        opacity: 0;
+    }
+    5%, 100% {
+        opacity: 1;
+    }
+}
+
+

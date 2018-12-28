@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -60,7 +59,7 @@ class App extends Component {
                 </Col>
               </Row>
             </Col>
-            <Col sm="5" style={{justifyContent:'center'}}>
+            <Col sm="5" style={{justifyContent:'center', marginBottom:'50px'}}>
             <br></br>
               <blockquote className="blockquote">
                 <p class="mb-0">Life is just like a basketball, the harder it falls, the higher it bounces.</p>
