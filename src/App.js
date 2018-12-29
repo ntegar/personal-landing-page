@@ -17,7 +17,7 @@ class App extends Component {
         <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route component={Error404} />
+            <Route path="/*" component={Error404} />
           </Switch>
         <Footer />
       </div>
